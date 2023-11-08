@@ -8,8 +8,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(OpenCV REQUIRED)
 find_package(ZLIB REQUIRED)
 
-add_link_options()
-
 add_executable(memorize memorize.cpp)
 target_include_directories(memorize PRIVATE ${OpenCV_INCLUDE_DIRS})
 target_link_libraries(memorize ${OpenCV_LIBS} ZLIB::ZLIB)
