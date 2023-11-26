@@ -1,7 +1,7 @@
 # Hopfield network
 
 ## Hopfield network とは
-Hopfield network（ホップフィールド・ネットワーク）またの名を associative memory（連想記憶）は、人工知能の種類の一つです。パターンを記憶し、ノイズ入りパターンから元のパターンを思い出す機能を有します。思い出すことに成功するかどうかは、ニューロン数とパターン数、ノイズの割合により決まります。
+Hopfield network（ホップフィールド・ネットワーク）またの名を associative memory（連想記憶）は、人工知能の種類の一つです。パターンを記憶し、ノイズ入りパターンから元のパターンを思い出す機能を有します。思い出すことに成功するかどうかは、ニューロン数とパターン数、ノイズの割合により決まります。原理説明は[こちら](https://skrbcr.github.io/blog/physics/associative_memory)
 
 ## このプログラムでできること
 本プログラムで Hopfield network の簡単な実験を行えます。画像の記憶、思い出しを行うもので、2つの実行ファイルから成ります：
