@@ -58,7 +58,7 @@ int main(int argc, char* argv[]) {
 	}
 	string strT;
 	read_line(ifs, strT);
-	if (strT != SKRBCR_HOPFILED_MODEL_DATA_FILE_HEADER) {
+	if (strT != SKRBCR_HOPFIELD_MODEL_DATA_FILE_HEADER) {
 		cerr << "[Error] Input file is not Hopfield model data file" << endl;
 	return -1;
 	}

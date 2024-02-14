@@ -67,7 +67,7 @@ int main(int argc, char* argv[]) {
 	cerr << "[Error] Cannot open \"" << strFile << "\"" << endl;
 	return -1;
 	}
-	ofs << SKRBCR_HOPFILED_MODEL_DATA_FILE_HEADER << '\n'
+	ofs << SKRBCR_HOPFIELD_MODEL_DATA_FILE_HEADER << '\n'
 		<< SKRBCR_HOPFIELD_MODEL_VERSION << '\n'
 		<< image.rows << " " << image.cols << endl;
 	z_stream zs;
